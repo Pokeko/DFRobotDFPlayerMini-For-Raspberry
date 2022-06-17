@@ -1,7 +1,7 @@
-# DFPlayer - A Mini MP3 Player For Arduino
+# DFPlayer - A Mini MP3 Player For Raspberry
 
 
-DFPlayer - A Mini MP3 Player For Arduino
+DFPlayer - A Mini MP3 Player For Raspberry
 https://www.dfrobot.com/index.php?route=product/product&product_id=1121
 
 This example shows the all the function of library for DFPlayer.
@@ -17,4 +17,14 @@ Notice and Trouble shooting
 
 1.Connection and Diagram can be found here
 https://www.dfrobot.com/wiki/index.php/DFPlayer_Mini_SKU:DFR0299#Connection_Diagram
-2.This code is tested on Arduino Uno, Leonardo, Mega boards.
+
+UPDATE
+======
+
+I fork the project of Angelo qiao to use it with Python and Raspberry. It's totally the same except the code is translate to Python.
+
+The utility is to use the UART on the raspberry and launch sounds at specific times of the day using cron under Raspberry.
+
+I modified the code to be able to communicate on the serial port with Python and not with the Arduino libraries.
+
+Thanks to Angelo qiao for his work
