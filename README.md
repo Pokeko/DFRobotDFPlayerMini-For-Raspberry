@@ -18,7 +18,7 @@ Notice and Trouble shooting
 1.Connection and Diagram can be found here
 https://www.dfrobot.com/wiki/index.php/DFPlayer_Mini_SKU:DFR0299#Connection_Diagram
 
-UPDATE
+Update
 ======
 
 I fork the project of Angelo qiao to use it with Python and Raspberry. It's totally the same except the code is translate to Python.
